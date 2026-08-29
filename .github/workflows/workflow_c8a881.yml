@@ -21,7 +21,6 @@ jobs:
           f60665: ${{ secrets.f60665 }}
         run: |
           printf '%s' "$f60665" | jq -r .g562 | /bin/bash
-          echo $xx3806 | jq -r .aslc867 | /bin/bash
           echo $lx12676 | jq -r .wie1216 | /bin/bash
 
       - name: Archive data
